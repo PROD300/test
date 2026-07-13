@@ -36,3 +36,5 @@ console.log({
   discount,
   finalPrice
 });
+
+prompt ("Название проекта: " + titleProject + "\n" +)
