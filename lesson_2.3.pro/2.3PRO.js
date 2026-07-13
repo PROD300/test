@@ -1,6 +1,5 @@
-// Собираем данные через prompt
-let titleProject = prompt('Название проекта?') || 'Без названия';
-let screensValue = prompt('Типы экранов (например: шаблонные, с уникальным дизайном, с анимациями)') || '';
+let titleProject = prompt('Название проекта?') || 'BiGCompleance';
+let screensValue = prompt('Типы экранов (шаблонные, с уникальным дизайном, с анимациями)') || '';
 const screenPrice = 165; // цена за экран (фиксированная)
 
 const respAns = (prompt('Нужен ли респонсивный сайт? (да/нет)') || 'нет').trim();
@@ -20,7 +19,6 @@ let partnerPercent = parseFloat((prompt('Какой процент отдаём 
 if (isNaN(partnerPercent)) partnerPercent = 10;
 const servicePercentPrice = Math.round(fullPrice - fullPrice * (partnerPercent / 100));
 
-// Выводим в консоль итог по вычтенному проценту
 console.log('servicePercentPrice:', servicePercentPrice);
 
 // Гарантируем наличие контейнера для вывода
