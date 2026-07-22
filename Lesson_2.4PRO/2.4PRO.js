@@ -1,11 +1,10 @@
 let titleProject = 'разработка сайта';
 const screenPrice = 50000;
-
 const servicePrice1 = 10000;
 const servicePrice2 = 5000;
 const servicePrice3 = 3000;
-
 const contractorPercent = 10;
+
 
 // Function expression
 const getAllServicePrices = function () {
